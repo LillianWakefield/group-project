@@ -1,10 +1,77 @@
 <!DOCTYPE html>
 <head>
-        <title></title>
+        <title>Cute or Boot?</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script></script>
+        <link rel="stylesheet" href="./index.css" >
+        <script src="index.js"></script>
 </head>
 <body>
-    
+        <div class="header">
+                <h1> Cute or Boot?</h1>
+                <div class="navbar sticky-top navbar-light">
+                        <ul class="nav justify-content-end">
+                                <li class="nav-item">
+                                        <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="#">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                </li>
+                        </ul>
+                </div>
+        </div>
+        
+        <div class="container">
+                <div class="row">
+                        <div class="checkBoxes flex-container col-12">
+                                <div class="row">
+                                        <div class="form-check col-6">
+                                                <input type="checkbox" class="form-check-input" id="cats-check">
+                                                <label class="form-check-label" for="cats-check">Only Cats</label>
+                                                <br />
+                                                <input type="checkbox" class="form-check-input" id="dogs-check">
+                                                <label class="form-check-label" for="dogs-check">Only Dogs</label>
+                                                <br />
+                                                <input type="checkbox" class="form-check-input" id="both-check">
+                                                <label class="form-check-label" for="both-check">Both</label>
+                                        </div>
+                                        <div class="startUp col-6">
+                                                <button type="submit" class="btn btn-primary startButton">Bring on the cute!</button>
+                                        </div>   
+                                </div>
+                        
+
+                        </div>
+                </div>
+        <div class="row cuteContainer">
+                <div class="flex-container">
+                        <div class="col-6-sm">
+                                <div class="card cute-card">
+                                        <img class="card-img-top" src="./sampledog.jpg" />
+                                        <div class="card-body">
+                                                <h5 class="card-title">Like this one?</h5>
+                                                <button type="submit" class="btn btn-primary cute-pick">Click here!</button>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-6-sm">
+                                <div class="card cute-card">
+                                        <img class="card-img-top" src="./samplecat.jpg" />
+                                        <div class="card-body">
+                                                <h5 class="card-title">Or maybe this one?</h5>
+                                                <button type="submit" class="btn btn-primary cute-pick">Click here!</button>
+                                        </div>
+                                </div>   
+                        </div>
+                </div>
+                
+                
+        
+        </div>
+        <div class="bottom">
+
+        </div>
 </body>
