@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
         <title>Cute or Boot?</title>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="./index.css" >
@@ -49,8 +50,8 @@
         <div class="row cuteContainer">
                 <div class="flex-container">
                         <div class="col-6-sm">
-                                <div class="card cute-card">
-                                        <img class="card-img-top" src="./sampledog.jpg" />
+                                <div class="card cute-card" >
+                                        <div class='card-left'></div>
                                         <div class="card-body">
                                                 <h5 class="card-title">Like this one?</h5>
                                                 <button type="submit" class="btn btn-primary cute-pick">Click here!</button>
@@ -59,7 +60,7 @@
                         </div>
                         <div class="col-6-sm">
                                 <div class="card cute-card">
-                                        <img class="card-img-top" src="./samplecat.jpg" />
+                                                <div class='card-right'></div>
                                         <div class="card-body">
                                                 <h5 class="card-title">Or maybe this one?</h5>
                                                 <button type="submit" class="btn btn-primary cute-pick">Click here!</button>
