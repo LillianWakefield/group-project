@@ -1,4 +1,11 @@
 $(document).ready(function() {
+    var gallery = [];
+    $('.cute-container').on(click, '.cute-left', function() {
+        gallery.append(document.getElementById("card-left").src);
+    });
+    $('.cute-container').on(click, '.cute-right', function() {
+        gallery.append(document.getElementById("card-right").src);
+    });
     //Renders images to the screen when page first loads.
     $.get('https://dog.ceo/api/breeds/image/random', function(data){
             $('#card-left').attr('src', data.message);
