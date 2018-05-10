@@ -18,7 +18,7 @@ The gallery page was designed and coded by Lillian Wakefield. There are HTML and
 <h4>About</h4>
 The about page was designed and coded by James Gottschalk. There are HTML and CSS elements with Bootstrap cards to display photos and information about the developers.
 
-</h5>Organization</h5>
+<h5>Organization</h5>
 The team used Slack to communicate. Trello was used to organize thoughts and keep track of the flow of the project. Each developer utilized branching in Git and the others reviewed pull requests to keep the files and code in good shape. 
 
 <h5>Authors</h5>
