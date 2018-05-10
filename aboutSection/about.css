@@ -1,5 +1,5 @@
 html {
-	background: gray;
+	background: #102542;
 }
 
 .collapse {
@@ -18,46 +18,50 @@ html {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: #cecece;
+	background-color: #CDD7D6;
 	text-align: center;
 	padding-top: 10px;
 
 }
 
 .container-fluid {
-	height: 100%;
   	display: inline-flex;
   	flex-direction: row;
- 	justify-content: center;
- 	background: gray;
- 	padding-top: 100px;
+ 	background: #102542;
+ 	padding-top: 40px;
 
 }
 
 .card {
+	text-align: center;
+	float:all;
+	margin:  auto;
 	transform-style: preserve-3d;
 	transition: all 1.0s ease;
+	background-color: #B3A394;
 
 	
 }
 
-.card:hover {
-	transform:rotateY(180deg);
-	transition: all 1.0s ease;
-}
+
+
 
 .cardfront {
+	float: all;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 50px;
 	text-align: center;
 	backface-visibility: hidden;
-	height: 100%;
+
 
 }
 
+
 .cardback {
-	height: 100%;
-	backface-visibility: hidden;
-	transform: rotateY(180deg);
+	clear:both;
 	text-align: center;
+	transform: rotateY(180deg);
 
 }
 
