@@ -9,7 +9,7 @@ This is a collaborative group project for DigitalCrafts February 2018 part-time 
 <h4>Technology</h4>
 The requirements for the project were laid out in the instruction document and the students chose to use the dog.ceo API for dog images and thecatapi.com API for the cat images. Git, HTML, CSS, Bootstrap, JavaScript, and JQuery are some of the technologies that the students utilized while working together to finish this project. 
 
-</h4>Index</h4>
+<h4>Index</h4>
 The main homepage was designed and coded initially by Brendan Strallow. There are HTML and CSS elements mixed with Bootstrap checkboxes and cards. The cards incorporate buttons with click listeners to handle the voting of images. 
 
 <h4>Gallery</h4>
