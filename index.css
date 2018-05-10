@@ -1,3 +1,4 @@
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -5,10 +6,45 @@
     justify-content: space-around;
     align-content: center;
 }
-.cute-card {
+.cute-container {
+	padding-top: 20px;
+}
+.collapse {
+	padding-left: 40px;
+}
+.navbar {
+	color: blue;
+}
+.card-options {
+	width: 400px;
+	padding-top: 15px;
+	margin: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.check-boxes {
+	text-align: center;
+}
+
+.navbar-brand {
+	padding-left: 40px;
+}
+.cute-card  {
     width: 18rem;
-    
+    text-align: center;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
 .header {
     background-color: #563D7C;
 }
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #CDD7D6;
+	text-align: center;
+	padding-top: 10px;
+
+}
+

@@ -8,24 +8,22 @@
         <script src="index.js"></script>
 </head>
 <body>
-        <div class="header">
-                <h1> Cute or Boot?</h1>
-                <div class="navbar sticky-top navbar-light">
-                        <ul class="nav justify-content-end">
-                                <li class="nav-item">
-                                        <a class="nav-link" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                        <a class="nav-link" href="gallery.html">Gallery</a>
-                                </li>
-                                <li class="nav-item">
-                                        <a class="nav-link" href="aboutSection/about.html">About</a>
-                                </li>
-                        </ul>
-                </div>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #CDD7D6">
+          <a class="navbar-brand" href="#">Cute or Boot</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="index.html">Home</a>
+              <a class="nav-item nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-item nav-link" href="aboutSection/about.html">About Us</a>
+            </div>
+          </div>
+        </nav>
         
         <div class="container">
+            <div class="card flex-container card-options">
                 <div class="row">
                         <div class="checkBoxes flex-container col-12">
                                 <div class="row">
@@ -38,11 +36,12 @@
                                                 <label><input type="radio" name="optradio" id="both-check" checked>Both</label>
                                         </div>
                                         <div class="startUp col-6">
-                                                <button type="submit" class="btn btn-primary startButton">Bring on the cute!</button>
+                                                <button type="submit" class="btn btn-success startButton">Bring on the cute!</button>
                                         </div>   
                                 </div>
                         </div>
                 </div>
+            </div>
                 <!-- I edited this a bit so the images would display properly-->
                 <div class="flex-container cute-container">
                          <div class="card cute-card" >
@@ -59,9 +58,16 @@
                                         <button type="submit" class="btn btn-primary pick-right">Click here!</button>
                                 </div>
                          </div>   
-                </div>       
+                </div> 
+
+
+                       
         </div>
         <div class="bottom">
 
+        </div>
+
+        <div class="footer">
+            <p> © 2018 - All rights reserved </p>
         </div>
 </body>

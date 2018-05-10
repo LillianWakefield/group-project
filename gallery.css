@@ -1,13 +1,40 @@
 h1 {
     text-align: center;
     color: #7C7C7D;
-    margin: 50px;
+    margin: 20px;
 }
 body {
-    background-color: #DAA49A;
+    background: #102542;
+}
+.navbar {
+	color: blue;
+}
+
+.navbar-brand {
+	padding-left: 40px;
+}
+.collapse {
+	padding-left: 40px;
 }
 .photo-container {
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #CDD7D6;
+	text-align: center;
+	padding-top: 10px;
+
+}
+.card {
+	background-color: #B3A394;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
